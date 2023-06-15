@@ -7,8 +7,8 @@ pipeline:
     ci:
       codebase:
         build: <+input>
-        connectorRef: account.Github_OAuth_1682633073658
-        repoName: rustd/gosample
+        connectorRef: FAST_HARNESS
+        repoName: jsword/gosample
   stages:
     - stage:
         identifier: build
