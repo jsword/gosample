@@ -7,7 +7,7 @@ pipeline:
     ci:
       codebase:
         build: <+input>
-        connectorRef: account.FAST_HARNESS
+        connectorRef: FAST_HARNESS
         repoName: jsword/gosample
   stages:
     - stage:
