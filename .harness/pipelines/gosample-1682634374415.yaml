@@ -8,7 +8,7 @@ pipeline:
       codebase:
         build: <+input>
         connectorRef: FAST_HARNESS
-        repoName: jsword/gosample
+        repoName: gosample
   stages:
     - stage:
         identifier: build
